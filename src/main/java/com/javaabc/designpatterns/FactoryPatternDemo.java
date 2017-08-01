@@ -13,21 +13,18 @@ interface Shape{
 	void draw();
 }
 class Rectangle implements Shape{
-	@Override
 	public void draw() {
 		// TODO Auto-generated method stub
 		System.out.println("Rectangle::draw() method");	
 	}
 }
 class Circle implements Shape{
-	@Override
 	public void draw() {
 		// TODO Auto-generated method stub
 		System.out.println("Circle::draw() method");	
 	}
 }
 class Square implements Shape{
-	@Override
 	public void draw() {
 		// TODO Auto-generated method stub
 		System.out.println("Square::draw() method");	
